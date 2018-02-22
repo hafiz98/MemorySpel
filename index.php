@@ -132,7 +132,7 @@ else
         <input type="button" id="reset" value="Reset" />
     </div>
 </div>
-<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+<form action="<?=$_SERVER['PHP_SELF']?>" method="post">
     <div id="container">
         <div id="containerTop">
             <h1 id="titleTop">
