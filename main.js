@@ -29,8 +29,7 @@ function startInterval(){
     timer = setInterval("tictac()", 1000);
 }
 
-
-
+//Dit is een terug knop
 $( '#terug' ).click(function(){
     reload();
 });
