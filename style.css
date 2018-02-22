@@ -1,0 +1,173 @@
+body{
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+#containerTop{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    border: 1px solid red;
+    float:left;
+}
+
+#progressbar{
+    width: 80%;
+    height: 10px;
+    position: relative;
+    top:30%;
+    margin: auto;
+}
+
+#containerMiddle{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    perspective: 800px;
+}
+
+#containerLeft{
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 15%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+#containerRight{
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 15%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+#container{
+    margin-left:auto;
+    margin-right:auto;
+    width: 69%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+#image{
+    border: 15px solid green;
+    border-radius: 20px;
+}
+
+#imageContainer{
+    position: inherit;
+    background-color: darkgrey;
+    padding: 10px;
+}
+
+.foto{
+    transform: rotateY( 180deg );
+
+}
+
+#containerKeuze{
+width: 100%;
+    text-align: center;
+}
+
+/*#containerKaart, #containerLeft, #containerRight{
+    display: none;
+}*/
+
+.figure{
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 150px;
+    height:150px;
+    backface-visibility: hidden;
+}
+
+.card.flipped {
+    transform: rotateY( 180deg );
+}
+
+#containerKaart{
+    background-color: #e74c3c;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 10px solid #e74c3c;
+    border-radius: 7px;
+    cursor: pointer;
+
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: 5px solid #c0392b;
+    border-radius: 7px;
+    background-color: #e74c3c;
+    color: #FFFFFF;
+    transition: 100ms;
+}
+
+button:hover{
+    transition: 100ms;
+    font-size: 20px;
+}
+
+button:active{
+    transition: 50ms;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#containerFormulier{
+    display: none;
+    border: 1px solid red;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+#containerRightTop, #containerRightTop2{
+    height: 20%;
+    border: 1px solid red
+}
+
+input,select {
+    text-align: center;
+    margin-top: 10px;
+    width: 200px !important;
+}
+
+#title{
+    margin: auto;
+}
+
+#titleLeft, #titleRight, #titleTop{
+    position: relative;
+    top: 10px;
+    text-align: center!important;
+}
+
+.containerHighscores{
+    display: block!important;
+    text-align: left ;
+    height: 80%!important;
+}
+
+.containerScoreInformatie{
+    margin-top: 20px;
+}
+
+#fotoPlaats{
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
