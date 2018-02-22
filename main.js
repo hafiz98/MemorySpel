@@ -61,7 +61,7 @@ function kaart(kaart){
                 if (readCookie("level") == 4){
                     bar.destroy();
                     if (gevonden !== 10){
-                        progressbarCall()
+                        progressbarCall();
                     }
                 }
             }, 1000);
@@ -178,4 +178,9 @@ $( '#reset' ).click(function(){
     $('.card').removeClass("flipped");
     $('.card').animate({opacity: 1}, 1000);
     $('.card').css("visibility", "visible");
+
+    if (readCookie("level") == 4){
+        bar.destroy();
+        progress = true;
+    }
 });

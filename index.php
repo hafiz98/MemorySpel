@@ -18,18 +18,18 @@
         die(mysqli_error($connect)); // Shows the $connect variable.
     }
 
-    if (isset($_POST['level'])){
+    if (isset($_POST['level'])){ // Als er een level gekozen is
         setcookie('level', $_POST['level'], time() + (86400 * 30),"/");
 
         echo '<style> #containerKaart, #containerLeft, #containerRight{display: block;} </style>';
         echo '<style> #containerKeuze{display: none} </style>';
 
-
         if($_POST['level'] == 4){
             $level = 3;
             echo '<style> #progressbar{display: block;} </style>';
         }
-        else{
+        else
+        {
             $level = $_POST['level'];
             echo '<style> #progressbar{display: none;} </style>';
         }
@@ -47,14 +47,8 @@
             echo "There is a problem:"; // Message says that there is a problem.
             die(mysqli_error($conn)); // Shows the $connect variable.
         }
-
-
-
-
-       // echo '<pre>'; print_r( $highscores );  echo '</pre>';
-
     }
-    else
+    else // Als er geen level gekozen is
     {
         echo '<style> #containerKaart, .containerTijd, .containerClicks, .containerGevonden, .containerReset{display: none;} #containerKeuze{display: block}</style>';
     }
@@ -72,7 +66,6 @@ else
     die(mysqli_error($conn)); // Shows the $connect variable.
 }
     if (isset($_POST['ajax'])){
-
         echo '<pre>'; print_r($_POST); echo '</pre>';
         $conn->query("INSERT INTO `resultaten` VALUES (NULL, NOW(), '{$_POST['tijd']}', '{$_POST['klik']}', '{$_SERVER['REMOTE_ADDR']}', '{$_POST['naam']}','{$_POST['gevonden']}', '{$_COOKIE['level']}')  ");
     }
@@ -200,5 +193,6 @@ else
 </form>
 <script type="text/javascript"src="counter/dist/countUp.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="progressbar.js"></script>
 </body>
 </html>

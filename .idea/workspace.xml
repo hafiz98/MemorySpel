@@ -26,15 +26,15 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="164" column="56" lean-forward="false" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="56" />
+            <state relative-caret-position="221">
+              <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
               <folding>
-                <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-                <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-                <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-                <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-                <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-                <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+                <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+                <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+                <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+                <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+                <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+                <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
               </folding>
             </state>
           </provider>
@@ -56,18 +56,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="180" column="3" lean-forward="false" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="progressbar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/progressbar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22488" lean-forward="false" selection-start-line="0" selection-start-column="22487" selection-end-line="0" selection-end-column="22488" />
+            <state relative-caret-position="1338">
+              <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,6 +103,7 @@
       <find>counter</find>
       <find>click</find>
       <find>title</find>
+      <find>bar</find>
     </findStrings>
     <replaceStrings>
       <replace>$level</replace>
@@ -126,9 +117,9 @@
       <list>
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/jquery.counterup.min.js" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/progressbar.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -299,12 +290,12 @@
       <workItem from="1518558588618" duration="4529000" />
       <workItem from="1518602707366" duration="3883000" />
       <workItem from="1518787347681" duration="74000" />
-      <workItem from="1519286946730" duration="5044000" />
+      <workItem from="1519286946730" duration="6224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104366000" />
+    <option name="totallyTimeSpent" value="105546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1064" extended-state="6" />
@@ -368,12 +359,12 @@
         <state relative-caret-position="255">
           <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -402,12 +393,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -436,12 +427,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -470,12 +461,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -504,12 +495,12 @@
         <state relative-caret-position="289">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -539,12 +530,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -573,12 +564,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -607,12 +598,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -641,12 +632,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
@@ -701,30 +692,30 @@
     <entry file="file://$PROJECT_DIR$/progressbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="22488" lean-forward="false" selection-start-line="0" selection-start-column="22487" selection-end-line="0" selection-end-column="22488" />
+          <caret line="0" column="22287" lean-forward="true" selection-start-line="0" selection-start-column="22287" selection-end-line="0" selection-end-column="22287" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="180" column="3" lean-forward="false" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
+        <state relative-caret-position="1338">
+          <caret line="166" column="0" lean-forward="true" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="164" column="56" lean-forward="false" selection-start-line="164" selection-start-column="52" selection-end-line="164" selection-end-column="56" />
+        <state relative-caret-position="221">
+          <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
           <folding>
-            <marker date="1519289473069" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1519289473069" expanded="true" signature="1255:1305" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="1255:1366" ph="SELECT * FRO... " />
-            <marker date="1519289473069" expanded="true" signature="1316:1366" ph="SELECT * FRO... kaarten" />
-            <marker date="1519289473069" expanded="true" signature="2166:2237" ph="SELECT * FRO... resultaten" />
-            <marker date="1519289473069" expanded="true" signature="2724:2904" ph="INSERT INTO `resultaten`... " />
+            <marker date="1519295701606" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1519295701606" expanded="true" signature="1294:1344" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="1294:1405" ph="SELECT * FRO... " />
+            <marker date="1519295701606" expanded="true" signature="1355:1405" ph="SELECT * FRO... kaarten" />
+            <marker date="1519295701606" expanded="true" signature="2168:2239" ph="SELECT * FRO... resultaten" />
+            <marker date="1519295701606" expanded="true" signature="2725:2905" ph="INSERT INTO `resultaten`... " />
           </folding>
         </state>
       </provider>
