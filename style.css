@@ -33,7 +33,7 @@ body{
     position: relative;
     float: left;
     text-align: center;
-    width: 15%;
+    width: 30%;
     height: 100%;
     border: 1px solid blue;
 }
@@ -50,7 +50,7 @@ body{
 #container{
     margin-left:auto;
     margin-right:auto;
-    width: 69%;
+    width: 40%;
     height: 100%;
     border: 1px solid black;
 }
@@ -94,11 +94,11 @@ width: 100%;
 }
 
 #containerKaart{
-    background-color: #e74c3c;
+    background-color: #E67E22;
     width: 150px;
     height: 150px;
     position: relative;
-    border: 10px solid #e74c3c;
+    border: 10px solid #E67E22;
     border-radius: 7px;
     cursor: pointer;
 
@@ -106,26 +106,8 @@ width: 100%;
     transition: transform 1s;
 }
 
-button{
-    width: 100px;
-    height: 50px;
-    border: 5px solid #c0392b;
-    border-radius: 7px;
-    background-color: #e74c3c;
-    color: #FFFFFF;
-    transition: 100ms;
-}
 
-button:hover{
-    transition: 100ms;
-    font-size: 20px;
-}
 
-button:active{
-    transition: 50ms;
-    font-size: larger;
-    font-weight: bolder;
-}
 
 #containerFormulier{
     display: none;
@@ -170,4 +152,16 @@ input,select {
     margin: 0;
     width: 150px;
     height: 150px;
+}
+input, select{
+    border: 2px solid #D35400;
+    background-color: #E67E22;
+    color: #FFFFFF;
+    transition-duration: 500ms;
+}
+input:active{
+    background-color: #E67E22;
+    font-weight: bolder;
+    transition-duration: 500ms;
+
 }
