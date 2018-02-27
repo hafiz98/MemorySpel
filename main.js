@@ -140,7 +140,9 @@ function progressbarCall(){
                     $.post( "index.php", { ajax: 1, klik: click, tijd: time, gevonden: gevonden, naam:$("#naam").val() } ).done(function (responsetext) {
                         console.log(responsetext);
                     });
-                    alert("Uw gegevens zijn opgeslagen in de database!");
+
+                    $('#formulierTitel').html("Uw gegevens zijn opgeslagen in de database!");
+                    $('#naam,#submit').remove();
                 });
             }
         }
