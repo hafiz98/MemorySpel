@@ -66,7 +66,7 @@ else
     die(mysqli_error($conn)); // Shows the $connect variable.
 }
     if (isset($_POST['ajax'])){
-        echo '<pre>'; print_r($_POST); echo '</pre>';
+
         $conn->query("INSERT INTO `resultaten` VALUES (NULL, NOW(), '{$_POST['tijd']}', '{$_POST['klik']}', '{$_SERVER['REMOTE_ADDR']}', '{$_POST['naam']}','{$_POST['gevonden']}', '{$_COOKIE['level']}')  ");
     }
 
@@ -176,7 +176,7 @@ else
                 <input type="submit" />
             </div>
             <div id="containerFormulier">
-                <h1>Vul je gegevens in zodat je highscores opgeslagen kan worden in onze database!</h1>
+                <h1 id="formulierTitel">Vul je gegevens in zodat je highscores opgeslagen kan worden in onze database!</h1>
                 <br/>
                 <?php
                 if (isset($_POST['level'])){
