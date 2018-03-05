@@ -18,19 +18,19 @@
         die(mysqli_error($connect)); // Shows the $connect variable.
     }
 
-    if (isset($_POST['level'])){ // Als er een level gekozen is
-        setcookie('level', $_POST['level'], time() + (86400 * 30),"/");
+    if (isset($_GET['level'])){ // Als er een level gekozen is
+        setcookie('level', $_GET['level'], time() + (86400 * 30),"/");
 
         echo '<style> #containerKaart, #containerLeft, #containerRight{display: block;} </style>';
         echo '<style> #containerKeuze{display: none} </style>';
 
-        if($_POST['level'] == 4){
+        if($_GET['level'] == 4){
             $level = 3;
             echo '<style> #progressbar{display: block;} </style>';
         }
         else
         {
-            $level = $_POST['level'];
+            $level = $_GET['level'];
             echo '<style> #progressbar{display: none;} </style>';
         }
 
@@ -53,7 +53,7 @@
         echo '<style> #containerKaart, .containerTijd, .containerClicks, .containerGevonden, .containerReset{display: none;} #containerKeuze{display: block}</style>';
     }
 
-if ($resource = mysqli_query($conn, " SELECT * FROM `resultaten` ORDER BY `gevonden` DESC, `tijd` ASC LIMIT 3 ")) // Makes an value from mysqli query.
+if ($resource = mysqli_query($conn, " SELECT * FROM `resultaten` ORDER BY `gevonden` DESC, `tijd` ASC LIMIT 3 ")) // Makes an value from mysqli query. // klik
 {
     while($result = mysqli_fetch_assoc($resource)) // Makes an array, the name of the array is guestbook. you can know it from the brickets[].
     {
@@ -65,11 +65,13 @@ else
     echo "There is a problem:"; // Message says that there is a problem.
     die(mysqli_error($conn)); // Shows the $connect variable.
 }
-    if (isset($_POST['ajax'])){
+    if (isset($_GET['ajax'])){
 
-        $conn->query("INSERT INTO `resultaten` VALUES (NULL, NOW(), '{$_POST['tijd']}', '{$_POST['klik']}', '{$_SERVER['REMOTE_ADDR']}', '{$_POST['naam']}','{$_POST['gevonden']}', '{$_COOKIE['level']}')  ");
+        $conn->query("INSERT INTO `resultaten` VALUES (NULL, NOW(), '{$_GET['tijd']}', '{$_GET['klik']}', '{$_SERVER['REMOTE_ADDR']}', '{$_GET['naam']}','{$_GET['gevonden']}', '{$_COOKIE['level']}')  ");
     }
 
+
+   // echo '<pre>'; print_r( $kaarten  ); echo '</pre>';
 
 ?>
 <!doctype html>
@@ -132,12 +134,12 @@ else
         <input type="button" id="reset" value="Reset" />
     </div>
 </div>
-<form action="<?=$_SERVER['PHP_SELF']?>" method="post">
+<form action="<?=$_SERVER['PHP_SELF']?>" method="GET">
     <div id="container">
         <div id="containerTop">
             <h1 id="titleTop">
                 <?php
-                    if (isset($_POST['level'])){
+                    if (isset($_GET['level'])){
                         echo 'Klik op een kaart om het spel te starten';
                     }
                     else
@@ -152,7 +154,7 @@ else
         </div>
         <div id="containerMiddle">
     <?php
-    if (isset($_POST['level'])){
+    if (isset($_GET['level'])){
                 foreach ($kaarten as $cards){
     ?>
                     <div id="containerKaart" class="card kaart<?=$cards['naam']?>" data-kaart="<?=$cards['naam']?>" onclick="kaart(this)">
@@ -176,14 +178,17 @@ else
                 <input type="submit" />
             </div>
             <div id="containerFormulier">
-                <h1 id="formulierTitel">Vul je gegevens in zodat je highscores opgeslagen kan worden in onze database!</h1>
-                <br/>
                 <?php
-                if (isset($_POST['level'])){
+                if (isset($_GET['level'])){
                     echo '
-                    <input id="naam" type="text" name="naam" placeholder="Naam" /><br/>
-                    <input id="submit" type="submit" name="submit" value="Opslaan" /><br/>
-                    <input id="terug" type="button" name="terug" value="Terug naar hoofdpagina" /><br/>
+                    <input id="naam" type="text" name="naam" placeholder="Naam" required="required"/>
+                    <br/>
+                    
+                    <label id="submit">Opslaan</label>
+                    <br/>
+                    
+                    <input id="terug" type="button" name="terug" value="Ga terug naar hoofdpagina" />
+                    
                     ';
                 }
                 ?>
