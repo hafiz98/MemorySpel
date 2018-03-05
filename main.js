@@ -22,7 +22,7 @@ function tictac(){
 
 function reset(){
     clearInterval(timer);
-    counter=0;
+    counter = 0;
 }
 
 function startInterval(){
@@ -70,27 +70,41 @@ function kaart(kaart){
                 $('.kaart' + kaartje).animate({opacity: 0}, 1000);
                 $('.kaart' + kaartje).css("visibility", "hidden");
             }, 1000);
+
             gevonden++;
+
             $( "#gevonden" ).html(gevonden);
-            if (gevonden == 10) {
+
+            if (gevonden == 10) { // Als alle kaarten gevond
+
                 clearInterval(timer);
+
                 if (readCookie("level") == 4){
                     bar.stop();
                 }
-                var time = new Date(1000 * counter).toISOString().substr(11, 8)
+
+                var time = new Date(1000 * counter).toISOString().substr(11, 8);
+
                 setTimeout(function () {
-                    $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time );
+                    $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time + "." + "Vul je naam hieronder in zodat je highscores opgeslagen kan worden in onze database!");
                     $( "#containerFormulier" ).css("display", "block", "!important");
-                    $( "#containerKaart, #containerLeft, #containerRight, #progressbar" ).css("display", "none", "!important");
-                }, 1500);
+                    $( "#containerKaart, #containerLeft, #containerRight, #progressbar, #terug" ).css("display", "none", "!important");
+                }, 1000);
 
                 $('#submit').click (function(){
-                    $.post( "index.php", { ajax: 1, klik: click, tijd: time, gevonden: gevonden,  naam:$("#naam").val() }).done(function(responsetext) {
-                        //alert( responsetext );
-                    });
-                    alert("Uw gegevens zijn opgeslagen in de database!");
-                    reload();
+                    if ($('#naam').val() !== ""){
+                        $.get( "index.php?ajax=1&klik="+click+"&tijd="+time+"&gevonden="+gevonden+"&naam=" + $("#naam").val() );
+                        $( "#titleTop" ).html("Uw gegevens zijn opgeslagen in de database!");
+                        $( "#containerFormulier" ).css("display", "block", "!important");
+                        $( "#terug" ).css("display", "block", "!important");
+                        $( "#naam, #submit" ).css("display", "none", "!important");
+                    }
+                    else
+                    {
+                        alert("Vul een naam in A.U.B");
+                    }
                 });
+
             }
         }
         else { // Als beide kaarten fout zijn
@@ -118,32 +132,42 @@ function kaart(kaart){
 function progressbarCall(){
     bar = new ProgressBar.Line(progressbar, {
         duration: 10000,
-        color: '#614051',
+        color: '#E67E22',
         trailColor: '#eee',
-        trailWidth: 1
+        trailWidth: 3
     });
 
     bar.animate(1.0, function() {
-        if (gevonden == 0){
-            alert("Game over!, geen paar gevonden");
-            reload();
+        if (gevonden == 0){ // Als de gebruiker niks heeft gevonden
+            $( "#titleTop" ).html("Helaas je tijd is om.");
+            $( "#containerFormulier" ).css("display", "block", "!important");
+            $( "#containerKaart, #containerLeft, #containerRight, #progressbar, #naam, #submit" ).css("display", "none", "!important");
+            $( "#terug" ).css("display", "block", "!important");
         }
-        else
+        else // Als de gebruiker iets heeft gevonden
         {
             if (gevonden !== 10){
-                alert("Progressbar voorbij, " + gevonden + " paar/paren gevonden");
-                var time = new Date(1000 * counter).toISOString().substr(11, 8);
-                $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time );
-                $( "#containerFormulier" ).css("display", "block", "!important");
-                $( "#containerKaart, #containerLeft, #containerRight, #progressbar" ).css("display", "none", "!important");
-                $('#submit').click (function(){
-                    $.post( "index.php", { ajax: 1, klik: click, tijd: time, gevonden: gevonden, naam:$("#naam").val() } ).done(function (responsetext) {
-                        console.log(responsetext);
-                    });
 
-                    $('#formulierTitel').html("Uw gegevens zijn opgeslagen in de database!");
-                    $('#naam,#submit').remove();
+                var time = new Date(1000 * counter).toISOString().substr(11, 8);
+
+                $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time + " en je hebt" + gevonden + " paar/paren gevonden. Vul je naam hieronder in zodat je highscores opgeslagen kan worden in onze database!");
+                $( "#containerFormulier" ).css("display", "block", "!important");
+                $( "#containerKaart, #containerLeft, #containerRight, #progressbar, #terug" ).css("display", "none", "!important");
+
+                $('#submit').click (function(){
+                    if ($('#naam').val() !== ""){
+                        $.get( "index.php?ajax=1&klik="+click+"&tijd="+time+"&gevonden="+gevonden+"&naam=" + $("#naam").val() );
+                        $( "#titleTop" ).html("Uw gegevens zijn opgeslagen in de database!");
+                        $( "#containerFormulier" ).css("display", "block", "!important");
+                        $( "#terug" ).css("display", "block", "!important");
+                        $( "#naam, #submit" ).css("display", "none", "!important");
+                    }
+                    else
+                    {
+                        alert("Vul een naam in A.U.B");
+                    }
                 });
+
             }
         }
     });
@@ -177,6 +201,7 @@ $( '#reset' ).click(function(){
     $("#clicks").html("0");
     $("#gevonden").html("0");
     $( "#titleTop" ).html("Klik op een kaart om het spel te starten");
+    $( "#containerKaart" ).css("display", "block", "!important");
     $('.card').removeClass("flipped");
     $('.card').animate({opacity: 1}, 1000);
     $('.card').css("visibility", "visible");
