@@ -33,7 +33,7 @@ body{
     position: relative;
     float: left;
     text-align: center;
-    width: 30%;
+    width: 25%;
     height: 100%;
     border: 1px solid blue;
 }
@@ -42,7 +42,7 @@ body{
     position: relative;
     float: right;
     text-align: center;
-    width: 15%;
+    width: 25%;
     height: 100%;
     border: 1px solid blue;
 }
@@ -50,7 +50,7 @@ body{
 #container{
     margin-left:auto;
     margin-right:auto;
-    width: 40%;
+    width: 49%;
     height: 100%;
     border: 1px solid black;
 }
@@ -68,17 +68,12 @@ body{
 
 .foto{
     transform: rotateY( 180deg );
-
 }
 
 #containerKeuze{
-width: 100%;
+    width: 100%;
     text-align: center;
 }
-
-/*#containerKaart, #containerLeft, #containerRight{
-    display: none;
-}*/
 
 .figure{
     margin: 0;
@@ -101,13 +96,9 @@ width: 100%;
     border: 10px solid #E67E22;
     border-radius: 7px;
     cursor: pointer;
-
     transform-style: preserve-3d;
     transition: transform 1s;
 }
-
-
-
 
 #containerFormulier{
     display: none;
@@ -164,4 +155,9 @@ input:active{
     font-weight: bolder;
     transition-duration: 500ms;
 
+}
+
+
+#terug, #opniew{
+    margin: auto;
 }
