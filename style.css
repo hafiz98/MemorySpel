@@ -8,19 +8,13 @@ body{
 
 }
 
-#containerTop{
-    width: 100%;
-    height: 10%;
-    text-align: center;
-    border: 1px solid red;
-    float:left;
-}
+
 
 #progressbar{
-    width: 80%;
+    width: 90%;
     height: 10px;
     position: relative;
-    top:30%;
+    top: 30%;
     margin: auto;
 }
 
@@ -30,7 +24,6 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    border: 1px solid green;
     perspective: 800px;
 }
 
@@ -60,24 +53,16 @@ body{
     border: 1px solid black;
 }
 
-#image{
-    border: 15px solid green;
-    border-radius: 20px;
-}
 
-#imageContainer{
-    position: inherit;
-    background-color: darkgrey;
-    padding: 10px;
-}
 
-.foto{
-    transform: rotateY( 180deg );
-}
 
 #containerKeuze{
     width: 100%;
     text-align: center;
+}
+
+.foto{
+    transform: rotateY( 180deg );
 }
 
 .figure{
@@ -113,10 +98,16 @@ body{
     text-align: center;
 }
 
-#containerRightTop, #containerLeftTop{
-    height: 10%;
-    border: 1px solid red
+#titleTop{
+    text-align: center;
 }
+
+#containerRightTop, #containerLeftTop, #containerMiddleTop{
+    height: 10%;
+    border-bottom: 10px solid #E67E22;
+}
+
+
 
 input,select {
     text-align: center;
@@ -174,6 +165,7 @@ input:active{
 .tabLevels {
     overflow: hidden;
     background-color: #f1f1f1;
+    border-bottom: 10px solid #E67E22;
 }
 
 /* Style the buttons inside the tab */
