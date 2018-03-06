@@ -129,7 +129,7 @@
 
 <?php
             }
-        }
+}
 ?>
 
 
@@ -139,26 +139,34 @@
 
 </div>
 
-<div id="containerRight">
+<?php
+    if (isset($_GET['level'])) {
+?>
 
-    <div id="containerRightTop">
-        <h1>Status</h1>
+    <div id="containerRight">
+
+        <div id="containerRightTop">
+            <h1>Status</h1>
+        </div>
+
+        <h5 id="titleLeft">Tijd</h5>
+        <p id="tijd">00:00:00</p>
+        <h5 id="titleRight">Clicks</h5>
+        <p id="clicks">0</p>
+        <h5 id="titleRight">Gevonden</h5>
+        <p id="gevonden">0</p>
+        <h5 id="titleRight">Reset</h5>
+        <input type="button" id="reset" value="Reset" />
+
     </div>
 
-    <h5 id="titleLeft">Tijd</h5>
-    <p id="tijd">00:00:00</p>
-    <h5 id="titleRight">Clicks</h5>
-    <p id="clicks">0</p>
-    <h5 id="titleRight">Gevonden</h5>
-    <p id="gevonden">0</p>
-    <h5 id="titleRight">Reset</h5>
-    <input type="button" id="reset" value="Reset" />
-
-</div>
+<?php
+}
+?>
 
 <form action="<?=$_SERVER['PHP_SELF']?>" method="GET">
     <div id="container">
-        <div id="containerTop">
+        <div id="containerMiddleTop">
             <h1 id="titleTop">
                 <?php
                     if (isset($_GET['level'])){
@@ -171,10 +179,9 @@
                 ?>
             </h1>
             <div id="progressbar"></div>
-            <div id="containerTime"></div>
-
         </div>
         <div id="containerMiddle">
+
     <?php
     if (isset($_GET['level'])){
                 foreach ($kaarten as $cards){
