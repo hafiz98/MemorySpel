@@ -1,11 +1,16 @@
 body{
     margin: 0 auto;
     padding: 0 0;
+    background-image: url("img/background.jpg") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
 }
 
 #containerTop{
     width: 100%;
-    height: 20%;
+    height: 10%;
     text-align: center;
     border: 1px solid red;
     float:left;
@@ -21,7 +26,7 @@ body{
 
 #containerMiddle{
     width: 100%;
-    height: 80%;
+    height: 90%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -108,8 +113,8 @@ body{
     text-align: center;
 }
 
-#containerRightTop, #containerRightTop2{
-    height: 20%;
+#containerRightTop, #containerLeftTop{
+    height: 10%;
     border: 1px solid red
 }
 
@@ -123,16 +128,16 @@ input,select {
     margin: auto;
 }
 
-#titleLeft, #titleRight, #titleTop{
+/*#titleRight,{
     position: relative;
     top: 10px;
     text-align: center!important;
-}
+}*/
 
 .containerHighscores{
     display: block!important;
-    text-align: left ;
-    height: 80%!important;
+    text-align: left;
+    height: 90%!important;
 }
 
 .containerScoreInformatie{
@@ -160,4 +165,46 @@ input:active{
 
 #terug, #opniew{
     margin: auto;
+}
+
+
+
+
+
+.tabLevels {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tabLevels button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    /*
+    cursor: pointer;
+    */
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+/*.tabLevels button:hover {
+    background-color: #ddd;
+}*/
+
+/* Create an active/current tablink class */
+.tabLevels button.active {
+    background-color: #E67E22;
+    color: #FFFFFF;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
