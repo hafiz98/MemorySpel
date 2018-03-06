@@ -23,33 +23,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="161" column="28" lean-forward="false" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="28" />
+            <state relative-caret-position="514">
+              <caret line="103" column="33" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="33" />
               <folding>
-                <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-                <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-                <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-                <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-                <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-                <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-                <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-                <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+                <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+                <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+                <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+                <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+                <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+                <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+                <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
               </folding>
             </state>
           </provider>
@@ -58,18 +58,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+            <state relative-caret-position="565">
+              <caret line="166" column="30" lean-forward="true" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="90" column="55" lean-forward="false" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -87,19 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>submitResultsTime()</find>
-      <find>submitResults</find>
-      <find>$graden</find>
-      <find>submitResults()</find>
-      <find>moeilijkheidsgraad</find>
-      <find>containerScoreInformatie</find>
-      <find>containerScore</find>
-      <find>containerGevonden</find>
-      <find>counter</find>
-      <find>click</find>
-      <find>title</find>
-      <find>bar</find>
-      <find>left</find>
       <find>right</find>
       <find>Vul je gegevens in zodat je highscores opgeslagen kan worden in onze database!</find>
       <find>Uw gegevens</find>
@@ -110,13 +97,26 @@
       <find>terug</find>
       <find>$_POST</find>
       <find>containerHighscores</find>
-      <find>containerTop</find>
       <find>titleLeft</find>
-      <find>containerRightTop</find>
       <find>titletop</find>
       <find>containerTijd</find>
       <find>cookie</find>
       <find>containerLeftTop</find>
+      <find>containerTime</find>
+      <find>gefelici</find>
+      <find>progressbar</find>
+      <find>reload()</find>
+      <find>containerRightTop</find>
+      <find>titleTop</find>
+      <find>containerMiddleTop</find>
+      <find>containerLeft</find>
+      <find>containerTop</find>
+      <find>image</find>
+      <find>imageContainer</find>
+      <find>containerMiddle</find>
+      <find>FOTO</find>
+      <find>tabLevels</find>
+      <find>containerRight</find>
     </findStrings>
     <replaceStrings>
       <replace>$level</replace>
@@ -144,7 +144,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1098" />
     <option name="y" value="-8" />
     <option name="width" value="968" />
@@ -310,15 +310,15 @@
       <workItem from="1520199810632" duration="473000" />
       <workItem from="1520244935853" duration="1309000" />
       <workItem from="1520246269972" duration="7113000" />
-      <workItem from="1520338051939" duration="5145000" />
+      <workItem from="1520338051939" duration="7818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123842000" />
+    <option name="totallyTimeSpent" value="126515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1064" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1064" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -368,27 +368,27 @@
         <state relative-caret-position="255">
           <caret line="25" column="64" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -414,27 +414,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -460,27 +460,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -506,27 +506,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -552,27 +552,27 @@
         <state relative-caret-position="289">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -599,27 +599,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -645,27 +645,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -691,27 +691,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -737,27 +737,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
         </state>
       </provider>
@@ -811,49 +811,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        <state relative-caret-position="565">
+          <caret line="166" column="30" lean-forward="true" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="161" column="28" lean-forward="false" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="28" />
+        <state relative-caret-position="514">
+          <caret line="103" column="33" lean-forward="false" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="33" />
           <folding>
-            <marker date="1520342368200" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
-            <marker date="1520342368200" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
-            <marker date="1520342368200" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
-            <marker date="1520342368200" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
-            <marker date="1520342368200" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
-            <marker date="1520342368200" expanded="true" signature="3125:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="3132:3277" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4124:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4244:4308" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4309:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4443:4466" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="4467:4524" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5045:5400" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5481:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5513:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="5544:5603" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6011:6042" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6546:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="6615:6802" ph="..." />
-            <marker date="1520342368200" expanded="true" signature="7029:7084" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="210:231" ph="SELECT * FRO... level" />
+            <marker date="1520349969165" expanded="true" signature="1290:1340" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="1290:1401" ph="SELECT * FRO... " />
+            <marker date="1520349969165" expanded="true" signature="1351:1401" ph="SELECT * FRO... kaarten" />
+            <marker date="1520349969165" expanded="true" signature="2205:2306" ph="SELECT * FRO... resultaten" />
+            <marker date="1520349969165" expanded="true" signature="2842:3018" ph="INSERT INTO `resultaten`... " />
+            <marker date="1520349969165" expanded="true" signature="3125:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="3132:3277" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4124:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4244:4308" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4309:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4443:4466" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="4467:4524" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5084:5487" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5580:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5618:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="5649:5708" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6072:6104" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6608:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="6677:6864" ph="..." />
+            <marker date="1520349969165" expanded="true" signature="7091:7146" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="90" column="55" lean-forward="false" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
