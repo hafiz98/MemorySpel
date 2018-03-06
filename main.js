@@ -31,7 +31,7 @@ function startInterval(){
 
 //Dit is een terug knop
 $( '#terug' ).click(function(){
-    reload();
+    window.location.href = window.location.protocol +'//'+ window.location.host + window.location.pathname;
 });
 
 
@@ -86,7 +86,7 @@ function kaart(kaart){
                 var time = new Date(1000 * counter).toISOString().substr(11, 8);
 
                 setTimeout(function () {
-                    $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time + "." + "Vul je naam hieronder in zodat je highscores opgeslagen kan worden in onze database!");
+                    $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time + "." + "Vul je naam hieronder in zodat je highscores opgeslagen kan worden in onze database!<br/><br/>");
                     $( "#containerFormulier" ).css("display", "block", "!important");
                     $( "#containerKaart, #containerLeft, #containerRight, #progressbar, #terug" ).css("display", "none", "!important");
                 }, 1000);
@@ -150,7 +150,7 @@ function progressbarCall(){
 
                 var time = new Date(1000 * counter).toISOString().substr(11, 8);
 
-                $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time + " en je hebt" + gevonden + " paar/paren gevonden. Vul je naam hieronder in zodat je highscores opgeslagen kan worden in onze database!");
+                $( "#titleTop" ).html("Gefeliciteerd!\n\nJe hebt " + click + "X geklikt en duurde " + time + " en je hebt" + gevonden + " paar/paren gevonden. Vul je naam hieronder in zodat je highscores opgeslagen kan worden in onze database!<br/><br/>");
                 $( "#containerFormulier" ).css("display", "block", "!important");
                 $( "#containerKaart, #containerLeft, #containerRight, #progressbar, #terug" ).css("display", "none", "!important");
 
@@ -173,11 +173,6 @@ function progressbarCall(){
     });
 }
 
-
-function reload() {
-    window.location.href = window.location.protocol +'//'+ window.location.host + window.location.pathname;
-}
-
 function readCookie(value){
     var cookieName = value + "="; //Set a variable for the name of the cookie
     var cookieArray = document.cookie.split(';'); //Makes an array from splitting all cookies which is available for user
@@ -190,7 +185,6 @@ function readCookie(value){
     }
     return null; // returns nothing/null
 }
-
 
 $( '#reset' ).click(function(){
     start = true;
@@ -211,6 +205,3 @@ $( '#reset' ).click(function(){
         progress = true;
     }
 });
-
-
-
