@@ -53,22 +53,28 @@
         echo '<style> #containerKaart, .containerTijd, .containerClicks, .containerGevonden, .containerReset{display: none;} #containerKeuze{display: block}</style>';
     }
 
-if ($resource = mysqli_query($conn, " SELECT * FROM `resultaten` ORDER BY `gevonden` DESC, `tijd` ASC LIMIT 3 ")) // Makes an value from mysqli query. // klik
-{
-    while($result = mysqli_fetch_assoc($resource)) // Makes an array, the name of the array is guestbook. you can know it from the brickets[].
-    {
-        $highscores[] = $result;
+
+    if (isset($_GET['level'])){
+        if ($resource = mysqli_query($conn, " SELECT * FROM `resultaten` WHERE `level` = '{$_GET['level']}' ORDER BY `klik` ASC, `tijd` ASC LIMIT 3 ")) // Makes an value from mysqli query. // klik
+        {
+            while($result = mysqli_fetch_assoc($resource)) // Makes an array, the name of the array is guestbook. you can know it from the brickets[].
+            {
+                $highscores[] = $result;
+            }
+        }
+        else
+        {
+            echo "There is a problem:"; // Message says that there is a problem.
+            die(mysqli_error($conn)); // Shows the $connect variable.
+        }
+
     }
-}
-else
-{
-    echo "There is a problem:"; // Message says that there is a problem.
-    die(mysqli_error($conn)); // Shows the $connect variable.
-}
+
     if (isset($_GET['ajax'])){
 
         $conn->query("INSERT INTO `resultaten` VALUES (NULL, NOW(), '{$_GET['tijd']}', '{$_GET['klik']}', '{$_SERVER['REMOTE_ADDR']}', '{$_GET['naam']}','{$_GET['gevonden']}', '{$_COOKIE['level']}')  ");
     }
+
 
 
    // echo '<pre>'; print_r( $kaarten  ); echo '</pre>';
@@ -86,54 +92,70 @@ else
 </head>
 <body>
 <div id="containerLeft">
-    <div id="containerLeftTop" class="containerHighscores">
-        <h1 id="titleLeft">Highscores</h1><br/>
+<?php
+    if (isset($_GET['level'])) {
+?>
+    <div id="containerLeftTop">
+        <h1>Highscores</h1>
+    </div>
 
-        <?php
-            foreach ($highscores as $plaats => $highscore){
-        ?>
+    <div  class="containerHighscores">
 
-        <div id="containerScore" style="border: 1px solid black; display: flex; justify-content: center;">
+            <div class="tabLevels">
+                <button class="tablinks <?php echo($_GET['level'] == 1 ? "active" : "") ?>">Level 1</button>
+                <button class="tablinks <?php echo($_GET['level'] == 2 ? "active" : "") ?>">Level 2</button>
+                <button class="tablinks <?php echo($_GET['level'] == 3 ? "active" : "") ?>">Level 3</button>
+                <button class="tablinks <?php echo($_GET['level'] == 4 ? "active" : "") ?>">Level 4</button>
+            </div>
 
-            <img id="fotoPlaats" width="150" height="150" src="img/<?=$plaats?>plaats"/>
+<?php
+            foreach ($highscores as $plaats => $highscore) {
+?>
 
-                <ul style="list-style-type: none; ">
-                    <li><b>Naam: </b><?=$highscore['naam']?></li>
-                    <li><b>Datum: </b><?=$highscore['datum']?></li>
-                    <li><b>Tijd: </b><?=$highscore['tijd']?></li>
-                    <li><b>Gevonden: </b><?=$highscore['gevonden']?></li>
-                    <li><b>Level: </b><?=$highscore['level']?></li>
-                </ul>
+                <div id="containerScore" style="border: 1px solid black; display: flex; justify-content: center;">
 
-        </div>
+                    <img id="fotoPlaats" width="150" height="150" src="img/<?= $plaats ?>plaats"/>
 
+                    <ul style="list-style-type: none; ">
+                        <li><b>Naam: </b><?= $highscore['naam'] ?></li>
+                        <li><b>Datum: </b><?= $highscore['datum'] ?></li>
+                        <li><b>Tijd: </b><?= $highscore['tijd'] ?></li>
+                        <li><b>Gevonden: </b><?= $highscore['gevonden'] ?></li>
+                        <li><b>Level: </b><?= $highscore['level'] ?></li>
+                        <li><b>Klik: </b><?= $highscore['klik'] ?></li>
+                    </ul>
 
-        <?php
+                </div>
+
+<?php
             }
-        ?>
+        }
+?>
+
+
 
 
     </div>
+
 </div>
 
 <div id="containerRight">
-    <div id="containerRightTop" class="containerTijd">
-        <h1 id="titleLeft">Tijd</h1><br/>
-        <h1 id="tijd">00:00:00</h1>
+
+    <div id="containerRightTop">
+        <h1>Status</h1>
     </div>
-    <div id="containerRightTop" class="containerClicks">
-        <h1 id="titleRight">Clicks</h1><br/>
-        <h1 id="clicks">0</h1>
-    </div>
-    <div id="containerRightTop" class="containerGevonden">
-        <h1 id="titleRight">Gevonden</h1><br/>
-        <h1 id="gevonden">0</h1>
-    </div>
-    <div id="containerRightTop" class="containerReset">
-        <h1 id="titleRight">Reset</h1><br/>
-        <input type="button" id="reset" value="Reset" />
-    </div>
+
+    <h5 id="titleLeft">Tijd</h5>
+    <p id="tijd">00:00:00</p>
+    <h5 id="titleRight">Clicks</h5>
+    <p id="clicks">0</p>
+    <h5 id="titleRight">Gevonden</h5>
+    <p id="gevonden">0</p>
+    <h5 id="titleRight">Reset</h5>
+    <input type="button" id="reset" value="Reset" />
+
 </div>
+
 <form action="<?=$_SERVER['PHP_SELF']?>" method="GET">
     <div id="container">
         <div id="containerTop">
