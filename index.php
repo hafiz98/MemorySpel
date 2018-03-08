@@ -50,7 +50,7 @@
     }
     else // Als er geen level gekozen is
     {
-        echo '<style> #containerKaart, .containerTijd, .containerClicks, .containerGevonden, .containerReset{display: none;} #containerKeuze{display: block}</style>';
+        echo '<style> #containerKaart, .containerTijd, .containerClicks, .containerGevonden, #containerLeft, .containerReset{display: none;} #containerKeuze{display: block}</style>';
     }
 
 
@@ -112,7 +112,7 @@
             foreach ($highscores as $plaats => $highscore) {
 ?>
 
-                <div id="containerScore" style="border: 1px solid black; display: flex; justify-content: center;">
+                <div id="containerScore" style="border-bottom: 1px double #E67E22; display: flex; justify-content: center;">
 
                     <img id="fotoPlaats" width="150" height="150" src="img/<?= $plaats ?>plaats"/>
 
@@ -204,7 +204,7 @@
     ?>
                 </select>
                 <br/>
-                <input type="submit" />
+                <input type="submit" value="Speel het spel"/>
             </div>
             <div id="containerFormulier">
                 <?php
@@ -225,7 +225,14 @@
         </div>
     </div>
 </form>
-<script type="text/javascript"src="counter/dist/countUp.min.js"></script>
+
+<footer>
+    <ul>
+        <li>Gemaakt door: Hafiz Elkilic</li>
+        <li>Datum: 8 maart 2018</li>
+    </ul>
+</footer>
+
 <script type="text/javascript" src="main.js"></script>
 <script type="text/javascript" src="progressbar.js"></script>
 </body>
