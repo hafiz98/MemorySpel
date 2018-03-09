@@ -1,14 +1,12 @@
 body{
     margin: 0 auto;
     padding: 0 0;
-    background-image: url("img/background.jpg") ;
+    background-image: url("../img/background.jpg") ;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
 }
-
-
 
 #progressbar{
     width: 90%;
@@ -33,24 +31,16 @@ body{
     text-align: center;
     width: 25%;
     height: 100%;
-    border: 10px solid #D35400;
+    border: 5px solid #D35400;
 }
-
-
 
 #container{
     margin-left:auto;
     margin-right:auto;
     width: 47%;
     height: 100%;
-    border-top: 10px solid #D35400;
-    border-bottom: 10px solid #D35400;
-    border-left: 5px solid #D35400;
-    border-right: 5px solid #D35400;
+    border: 5px solid #D35400;
 }
-
-
-
 
 #containerKeuze{
     width: 100%;
@@ -88,7 +78,6 @@ body{
 
 #containerFormulier{
     display: none;
-    border: 1px solid red;
     width: 100%;
     position: absolute;
     text-align: center;
@@ -103,8 +92,6 @@ body{
     border-bottom: 10px solid #E67E22;
 }
 
-
-
 input,select {
     text-align: center;
     margin-top: 10px;
@@ -114,8 +101,6 @@ input,select {
 #title{
     margin: auto;
 }
-
-
 
 .containerHighscores{
     display: block!important;
@@ -132,11 +117,13 @@ input,select {
     width: 150px;
     height: 150px;
 }
+
 input, select{
     border: 2px solid #D35400;
     background-color: #E67E22;
     color: #FFFFFF;
     transition-duration: 500ms;
+    text-decoration: none;
 }
 input:active{
     background-color: #E67E22;
@@ -145,13 +132,17 @@ input:active{
 
 }
 
+.active{
+    background-color: #E67E22!important;
+}
 
 #terug, #opniew{
     margin: auto;
 }
 
-
-
+#terug{
+    display: none;
+}
 
 #containerRight{
     float: right;
@@ -163,27 +154,17 @@ input:active{
     border-bottom: 10px solid #E67E22;
 }
 
-/* Style the buttons inside the tab */
+
 .tabLevels button {
     background-color: inherit;
     float: left;
     border: none;
     outline: none;
-
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
 }
 
-
-
-/* Create an active/current tablink class */
-.tabLevels button.active {
-    background-color: #E67E22;
-    color: #FFFFFF;
-}
-
-/* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -192,9 +173,17 @@ input:active{
 }
 
 footer{
-    list-style-type:none;
+    list-style-type:none!important;
     color: white;
     text-align: center;
     background-color: #D35400;
     height: 100px;
+}
+
+#submit{
+    border: 2px solid #D35400;
+    background-color: #E67E22;
+    color: #FFFFFF;
+    width: 200px !important;
+    cursor: pointer;
 }
